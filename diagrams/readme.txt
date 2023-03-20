@@ -1,1 +1,0 @@
-Training diagrams are here 
