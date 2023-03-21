@@ -1,0 +1,38 @@
+Labs: 
+
+API Deploy:
+
+1. Git Clone the Repo
+git clone https://github.com/MicrosoftLearning/AZ-204-DevelopingSolutionsforMicrosoftAzure.git
+
+2. Change dir 
+cd F:\Allfiles\Labs\01\Starter\API\
+
+3. Deploy
+az webapp deployment source config-zip --resource-group AZ-204-RG --src api.zip --name imgapishivam676
+
+
+To deploy the web app:
+1. change dir 
+Allfiles (F):\Allfiles\Labs\01\Starter\Web
+
+2. 
+
+ az webapp deployment source config-zip --resource-group AZ-204-RG --src web.zip --name imgwebshivam7676
+
+
+
+==========================================================================
+==========================================================================
+$Context = New-AzStorageContext -StorageAccountName "shivamimagestore123" -StorageAccountKey "BGgez6cDraMqNEkZsQaQBQSeMsgtNvinT1A8TCh0d4UfZ1++yf6XTvxVX637J9NVJT7mRzIZFBfe+AStrtFhDg=="
+
+
+Set-AzStorageServiceLoggingProperty -ServiceType Blob -Context $Context -LoggingOperations All -PassThru -RetentionDays 10 -Version 2.0
+
+
+StorageBlobLogs
+| where TimeGenerated > ago(3d) and AuthenticationType == "OAuth"
+| project RequesterUpn, RequesterObjectId, 
+    AccountName, TimeGenerated, OperationName, AuthenticationType, Uri,
+    ClientRequestId, 
+    RequesterAppId
