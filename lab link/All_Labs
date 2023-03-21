@@ -1,3 +1,13 @@
 All lab links 
 
+(Optional):  Create a VM in Azure: https://learn.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal
+=============================
+(Full list) Softwares needed in the laptop or the VM are here: https://github.com/MicrosoftLearning/AZ-204-DevelopingSolutionsforMicrosoftAzure/blob/master/lab.md
+=============================
+
 Lab 1: https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/AZ-204_lab_01.html
+Software needed: 
+
+1. Install git: https://git-scm.com/downloads
+2. VS Code: https://code.visualstudio.com
+3. Install Azure CLI: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
