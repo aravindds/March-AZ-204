@@ -22,3 +22,18 @@ Lab 2: (Front Door): https://learn.microsoft.com/en-us/azure/frontdoor/create-fr
 
 Day 4: 
 ACI Lab: https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/AZ-204_lab_05.html
+
+
+Day 5: 
+
+Lab 1: https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-app
+
+Lab 2: https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-prepare-acr?tabs=azure-cli
+
+Lab 3: https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-deploy-cluster?tabs=azure-cli
+
+Lab 4: https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-deploy-application?tabs=azure-cli
+
+Lab 5: https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-scale?tabs=azure-cli
+
+Lab 6: https://learn.microsoft.com/en-us/azure/aks/tutorial-kubernetes-app-update?tabs=azure-cli
