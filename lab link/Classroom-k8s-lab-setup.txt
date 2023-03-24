@@ -1,0 +1,102 @@
+Create the Linux VM
+1. OS: Linux(ubuntu 18.04 LTS) 
+2. Size: Standard D2s_v3 (2 vcpus, 8 GiB memory)
+3. Authentication Type: Password
+4. Port: 22
+
+
+
+===============================================================
+Connect with the VM
+===============================================================
+ssh msadmin@20.127.220.124
+
+
+
+=================================================================
+Install the softwares in Linux 
+=================================================================
+# Change the user to root 
+sudo su
+
+# Installing Docker
+apt-get update && apt-get install -y docker.io
+
+# Install docker-compose
+
+sudo curl -L https://github.com/docker/compose/releases/download/1.29.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+# Installing Azure CLI 
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
+==================================================================
+
+Test the webpage will open or not 
+
+curl localhost:8080
+
+===============================
+You have to login in Azure CLI using 
+
+az login 
+
+
+
+
+
+
+================================
+================================
+az acr create --resource-group myResourceGroup --name shivamacr8686 --sku Basic
+
+az acr login --name shivamacr8686
+
+
+docker tag mcr.microsoft.com/azuredocs/azure-vote-front:v1 shivamacr8686.azurecr.io/azure-vote-front:v1
+
+
+docker push shivamacr8686.azurecr.io/azure-vote-front:v1
+
+# Create a single node (worker node count) if you get any quota error  
+az aks create --resource-group myResourceGroup --name myAKSCluster --node-count 2 --generate-ssh-keys --attach-acr shivamacr8686
+
+
+
+kubectl scale --replicas=5 deployment/azure-vote-front
+
+# Autoscale (Inline) 
+kubectl autoscale deployment azure-vote-front --cpu-percent=50 --min=3 --max=10
+
+# Autoscale(manifest file: evaluation: 30 sec)
+
+touch azure-vote-hpa.yaml
+vi azure-vote-hpa.yaml
+
+# scale the Linux worker of my AKS
+az aks scale --resource-group myResourceGroup --name myAKSCluster --node-count 3
+
+
+
+
+
+
+docker tag mcr.microsoft.com/azuredocs/azure-vote-front:v1 shivamacr8686.azurecr.io/azure-vote-front:v2
+
+
+kubectl set image deployment azure-vote-front azure-vote-front=shivamacr8686.azurecr.io/azure-vote-front:v2
+
+
+
+
+
+
+
+
+
+
+
+
+
