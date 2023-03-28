@@ -52,3 +52,13 @@ Lab 4: https://learn.microsoft.com/en-us/azure/api-management/mock-api-responses
 Lab 5: https://learn.microsoft.com/en-us/azure/api-management/api-management-get-started-revise-api?tabs=azure-portal
 
 Lab 6: https://learn.microsoft.com/en-us/azure/api-management/api-management-get-started-publish-versions
+
+
+
+Day 7: 
+
+Install: 
+1. VS Code: https://code.visualstudio.com/
+2. .NET 6 SDK: https://dotnet.microsoft.com/download/dotnet/6.0
+
+Lab 1: https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/AZ-204_lab_06.html
