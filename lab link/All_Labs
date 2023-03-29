@@ -62,3 +62,21 @@ Install:
 2. .NET 6 SDK: https://dotnet.microsoft.com/download/dotnet/6.0
 
 Lab 1: https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/AZ-204_lab_06.html
+
+
+Day 8: 
+
+Install: 
+
+1. VS Code: https://code.visualstudio.com/
+
+2. .NET 6 SDK: https://dotnet.microsoft.com/download/dotnet/6.0
+
+Lab 1: https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/AZ-204_lab_04.html
+
+Download the Images from here (Repo): https://github.com/MicrosoftLearning/AZ-204-DevelopingSolutionsforMicrosoftAzure
+
+Solution here: https://github.com/MicrosoftLearning/AZ-204-DevelopingSolutionsforMicrosoftAzure/blob/master/Allfiles/Labs/04/Solution/AdventureWorks/AdventureWorks.Context/AdventureWorksCosmosContext.cs
+
+
+
