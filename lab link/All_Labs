@@ -81,10 +81,31 @@ Solution here: https://github.com/MicrosoftLearning/AZ-204-DevelopingSolutionsfo
 
 Day 9: 
 
-Lab 1
+Lab 1: Image Gallery 
 
-Part a: https://learn.microsoft.com/en-us/azure/event-grid/storage-upload-process-images?tabs=dotnet%2Cazure-cli
+Create the qeb app and the image storage account
 
-Part b: https://learn.microsoft.com/en-us/azure/event-grid/resize-images-on-storage-blob-upload-event?tabs=dotnet%2Cazure-cli
+Part a Lab Link: https://learn.microsoft.com/en-us/azure/event-grid/storage-upload-process-images?tabs=dotnet%2Cazure-cli
 
-Lab 2: https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/AZ-204_lab_07.html
+Create Event Grid and Azure Function
+
+Part b Lab Link: https://learn.microsoft.com/en-us/azure/event-grid/resize-images-on-storage-blob-upload-event?tabs=dotnet%2Cazure-cli
+
+
+
+Lab 2: 
+
+Softwares should be installed
+
+1. VSCode
+
+2. .Net6 SDK
+
+3. Azure Function Core Tool (VM restart may be needed) https://docs.microsoft.com/azure/azure-functions/functions-run-local#v3
+
+4. Azure CLI: https://docs.microsoft.com/cli/azure/install-azure-cli 
+
+5. VSCode Extension: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions
+
+Lab Link: https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/AZ-204_lab_07.html
+
