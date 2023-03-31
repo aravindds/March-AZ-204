@@ -110,3 +110,24 @@ Softwares should be installed
 Lab Link: https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/AZ-204_lab_07.html
 
 Solution: https://github.com/MicrosoftLearning/AZ-204-DevelopingSolutionsforMicrosoftAzure/blob/master/Allfiles/Labs/07/Solution/func/FileParser.cs
+
+
+Day: 10
+
+Softwares: 
+
+1. VS Code 
+
+2. .Net 6 SDK
+
+3. Azure Powershell: https://docs.microsoft.com/powershell/azure/install-az-ps
+
+Lab 1: https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/AZ-204_lab_10.html
+
+Lab 2: https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/AZ-204_lab_11.html
+
+
+
+
+
+
